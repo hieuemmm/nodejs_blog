@@ -24,3 +24,5 @@
     - npm i morgan --save-dev       :: install library in dev environment
     - Check your request to server
 ## 4. Template engines library:
+    # https://www.npmjs.com/package/express-handlebars
+    - npm i express-handlebars 
