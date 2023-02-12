@@ -2,9 +2,10 @@
   "name": "nodejs_blog",
   "version": "1.0.0",
   "description": "Learning NodeJS",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon --inspect src/index.js",
+    "start": "nodemon --inspect src/app.js",
+    "scss": "node-sass --watch src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
