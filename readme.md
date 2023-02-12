@@ -26,3 +26,8 @@
 ## 4. Template engines library:
     # https://www.npmjs.com/package/express-handlebars
     - npm i express-handlebars 
+    - Support Render layout in NodeJS
+## 5. Node-sass
+    # https://www.npmjs.com/package/node-sass
+    - npm i node-sass --save-dev
+    - Support auto render scss to css with command line interface 
