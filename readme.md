@@ -33,5 +33,5 @@
     - Support auto render scss to css with command line interface
     - Change package.json file :
         "scripts": {
-            "scss": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
-        },
+            "scss": "node-sass --watch src/resources/scss/ --output src/public/css/",
+        }
